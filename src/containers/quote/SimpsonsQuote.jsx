@@ -22,12 +22,12 @@ const SimpsonsQuote = () => {
       <Load onClick={handleButtonClick} />
       {
         loading ? 
-          <img href={spinner} /> :
+          <img src={spinner} /> :
           (
             quote && 
             (
               <Quote 
-                quote={quote} 
+                quote={quote.quote} 
                 character={quote.character} 
                 image={quote.image} />
             )

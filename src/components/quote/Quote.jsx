@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export default function Quote({ quote, character, image }) {
   return (
     <div>
-      <img href={image} alt="{character} - {quote}" />
+      <img src={image} alt="{character} - {quote}" />
       <p>
         {quote} - {character}
       </p>
